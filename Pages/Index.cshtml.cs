@@ -6,7 +6,7 @@ namespace dotnetcoresample.Pages;
 
 public class IndexModel : PageModel
 {
-
+    throw new Exception();
     public string OSVersion { get { return RuntimeInformation.OSDescription; }  }
     
     private readonly ILogger<IndexModel> _logger;
